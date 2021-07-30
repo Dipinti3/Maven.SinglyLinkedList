@@ -117,5 +117,19 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         }
     }
 
+    public void reverse() {
+        Node current = head;
+        Node previous = null;
+        Node nextNode = null;
+
+        while(current != null) {
+            nextNode = current;
+            current = current.next;
+
+            nextNode.next = previous;
+            previous = nextNode;
+            head = nextNode;
+        }
+    }
 
 }

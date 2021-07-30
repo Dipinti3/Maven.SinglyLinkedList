@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0c6f35-1ac5-49ea-b41e-20445c07c5c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" afterDir="false" />
     </list>
@@ -47,7 +44,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.testSort">
+  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.testReverse">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -102,23 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="singlylinkedlist" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zipcodewilmington.singlylinkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testContains" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SinglyLinkedListTest.testCopy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
@@ -164,6 +144,23 @@
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
       <option name="METHOD_NAME" value="testRemove" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListTest.testReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="singlylinkedlist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.singlylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="testReverse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -248,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SinglyLinkedListTest.testReverse" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testSort" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testCopy" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testGet" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testRemove" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testContains" />
       </list>
     </recent_temporary>
   </component>
@@ -272,21 +269,21 @@
       <screen x="1280" y="25" width="1920" height="1055" />
     </state>
     <state x="1939" y="203" key="#com.intellij.ide.util.MemberChooser/1280.25.1920.1055/0.25.1280.702@1280.25.1920.1055" timestamp="1627328316498" />
-    <state width="1238" height="176" key="GridCell.Tab.0.bottom" timestamp="1627677325163">
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom" timestamp="1627677577104">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.bottom/1280.25.1920.1055/0.25.1280.702@0.25.1280.702" timestamp="1627677325163" />
-    <state width="1238" height="176" key="GridCell.Tab.0.center" timestamp="1627677325162">
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom/1280.25.1920.1055/0.25.1280.702@0.25.1280.702" timestamp="1627677577104" />
+    <state width="1238" height="176" key="GridCell.Tab.0.center" timestamp="1627677577103">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.center/1280.25.1920.1055/0.25.1280.702@0.25.1280.702" timestamp="1627677325162" />
-    <state width="1238" height="176" key="GridCell.Tab.0.left" timestamp="1627677325161">
+    <state width="1238" height="176" key="GridCell.Tab.0.center/1280.25.1920.1055/0.25.1280.702@0.25.1280.702" timestamp="1627677577103" />
+    <state width="1238" height="176" key="GridCell.Tab.0.left" timestamp="1627677577102">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.left/1280.25.1920.1055/0.25.1280.702@0.25.1280.702" timestamp="1627677325161" />
-    <state width="1238" height="176" key="GridCell.Tab.0.right" timestamp="1627677325162">
+    <state width="1238" height="176" key="GridCell.Tab.0.left/1280.25.1920.1055/0.25.1280.702@0.25.1280.702" timestamp="1627677577102" />
+    <state width="1238" height="176" key="GridCell.Tab.0.right" timestamp="1627677577103">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.right/1280.25.1920.1055/0.25.1280.702@0.25.1280.702" timestamp="1627677325162" />
+    <state width="1238" height="176" key="GridCell.Tab.0.right/1280.25.1920.1055/0.25.1280.702@0.25.1280.702" timestamp="1627677577103" />
   </component>
 </project>

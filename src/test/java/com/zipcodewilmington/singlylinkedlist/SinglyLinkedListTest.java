@@ -133,4 +133,19 @@ public class SinglyLinkedListTest {
         Assert.assertEquals(expectedValue, actualValue);
     }
 
+    @Test
+    public void testReverse(){
+        //given
+        SinglyLinkedList<String> list = new SinglyLinkedList<String>();
+        String expectedValue="Cereal";
+        //when
+        list.addNode("Milk");
+        list.addNode("Eggs");
+        list.addNode("Bread");
+        list.addNode("Cereal");
+        list.reverse();
+        String actualValue = list.get(0);
+        //then
+        Assert.assertEquals(expectedValue, actualValue);
+    }
 }
