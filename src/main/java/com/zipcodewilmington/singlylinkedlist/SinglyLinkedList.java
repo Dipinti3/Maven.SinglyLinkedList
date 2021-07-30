@@ -34,21 +34,20 @@ public class SinglyLinkedList<T extends Comparable<T>> {
     }
 
 
-   public void removeNode(int index){
-        Node current=head;
-        Node last=head;
-       for (int i = 0; i < size(); i++) {
-           if(i!=index){
-               last=current;
-               current=current.next;
-           }
-           else{
-               while(i<size()-1){
-                   last.next=current.next;
-               }
-           }
-       }
-   }
+    public void removeNode(int index) {
+        Node current = head;
+        Node last = head;
+        for (int i = 0; i < size(); i++) {
+            if(i != index) {
+                last = current;
+                current = current.next;
+            } else {
+                while(i < size() -1) {
+                    last.next = current.next;
+                }
+            }
+        }
+    }
 
     public boolean contains(T data){
         Node current=head;
@@ -60,11 +59,14 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         }
         return false;}
 
-    public int find(Object data){
+    public int findIndex(T data){
         Node current=head;
         for (int i = 0; i < size(); i++) {
-            if(!(current.data==data))
+            if(!current.data.equals(data))
                 current=current.next;
+            else{
+                return i;
+            }
         }
         return -1;
     }
@@ -79,7 +81,7 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         return count;
     }
 
-    public Object get(int index){
+    public T get(int index){
         Node current=head;
         for (int i = 0; i < size(); i++) {
             if(i==index)
