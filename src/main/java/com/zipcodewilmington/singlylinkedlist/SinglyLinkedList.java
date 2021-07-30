@@ -132,4 +132,14 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         }
     }
 
+    public SinglyLinkedList<T> slice(int startingIndex,int endingIndex){
+        SinglyLinkedList<T> result=new SinglyLinkedList<T>();
+        for (int i = 0; i < endingIndex; i++) {
+             if(i>=startingIndex){
+                 result.addNode(get(i));
+             }
+        }
+        return result;
+    }
+
 }

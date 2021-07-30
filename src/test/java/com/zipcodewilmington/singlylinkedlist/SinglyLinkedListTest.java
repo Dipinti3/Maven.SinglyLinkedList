@@ -148,4 +148,20 @@ public class SinglyLinkedListTest {
         //then
         Assert.assertEquals(expectedValue, actualValue);
     }
+
+    @Test
+    public void testSlice() {
+        //given
+        SinglyLinkedList<String> list = new SinglyLinkedList<String>();
+        Integer expectedValue = 2;
+        //when
+        list.addNode("Milk");
+        list.addNode("Eggs");
+        list.addNode("Bread");
+        list.addNode("Cereal");
+        SinglyLinkedList<String> slicedList = list.slice(0, 2);
+        Integer actualValue = slicedList.size();
+        //then
+        Assert.assertEquals(expectedValue, actualValue);
+    }
 }
